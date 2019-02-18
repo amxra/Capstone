@@ -64,6 +64,10 @@ h2{
     display: inline;
 }
 
+.logo{
+    display: inline-flex;
+    justify-content: space-around;
+}
 .header{
     display: inline-flex;
     justify-content: space-between;
