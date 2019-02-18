@@ -123,8 +123,8 @@ h2{
 
 
 .banner-img img{
-    padding-bottom:2rem;
-    width: 100%
+    padding: 0;
+    width: 100%;
 }
 
 .banner-txt .btn{
@@ -143,6 +143,10 @@ h2{
 
 .banner h2{
     padding-bottom: 2rem;
+}
+
+.banner h1{
+    padding-top: 2rem;
 }
 
 }
