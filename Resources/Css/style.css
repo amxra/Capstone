@@ -118,19 +118,27 @@ h2{
 @media only screen and (min-width:320px) and (max-width:480px){
 
 .banner{
-    display: flex;
+    flex-direction: column;
 }
 
 
 .banner-img img{
-    width: 100%;
     padding-bottom:2rem;
+    width: 100%
 }
 
 .banner-txt .btn{
     background-color: #b8b8b8;
     color: #ffffff;
-    padding: 1.5rem 1rem 2rem 1rem;
+    padding: 1.5rem 1rem 2rem 0;
+}
+
+.banner-txt{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding-left:1rem;
 }
 
 .banner h2{
