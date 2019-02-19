@@ -180,7 +180,6 @@ h3{
 }
 
 .option{
-    border: 1px solid blueviolet;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -188,7 +187,6 @@ h3{
 }
 
 .course{
-    border: 1px solid red;
     width: 350px;
     background-color: #fff;
     margin: 2rem 2rem;
