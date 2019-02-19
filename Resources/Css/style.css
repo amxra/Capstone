@@ -128,10 +128,10 @@ h3{
       }
     
       .banner-img {
-          padding: 0;
+          margin: 0;
       }
     
-      .txt {
+      .banner-txt {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -139,7 +139,7 @@ h3{
       }
     
       .banner-txt h2 {
-        padding: 0 1rem;
+        padding: 2rem 1rem;
       }
     
       .banner img, .banner-img, .logo {
@@ -149,7 +149,9 @@ h3{
       .btn {
         margin: 0 auto;
         margin-bottom: 2rem;
+        margin-top: 1.5rem;
         width: 90%;
+        
       }
     
 }
