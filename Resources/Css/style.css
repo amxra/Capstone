@@ -169,6 +169,55 @@ h3{
 }
 
 
+/*--- Learning---*/
+
+.learn{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #d8d8d8;
+   padding-top: 2rem;
+}
+
+.option{
+    border: 1px solid blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2.5rem;
+}
+
+.course{
+    border: 1px solid red;
+    width: 350px;
+    background-color: #fff;
+    margin: 2rem 2rem;
+   
+   
+}
+
+.course img{
+    width: 100%;
+    height: auto;
+}
+
+.course-txt{
+    padding: 1rem 0 1.5rem 1rem;
+}
+
+.course-txt p{
+    padding-top: 0.5rem;
+}
+  
+
+  
+  
+
+  
+
+
+
+
 
 
 /* --- mobile ---*/
@@ -217,12 +266,13 @@ h3{
     }
 
     /*---Information mobile ---*/
-.news{
+    .news{
     width: 100%;
     margin-top: 0px;
-}
+    }
 
-.news-content{
+
+ .news-content{
     flex-direction: column;
     padding: 1rem 1rem;
 }
@@ -238,4 +288,3 @@ h3{
     margin-left: 1rem;
 }
 
-    
