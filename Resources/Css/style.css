@@ -28,6 +28,10 @@ h2{
     font-size: 2rem;
 }
 
+h3{
+    font-size: 1.5rem;
+}
+
 /*---Header---*/
 
 .header{
@@ -131,6 +135,7 @@ h2{
     background-color: #b8b8b8;
     color: #ffffff;
     padding: 1.5rem 1rem 2rem 0;
+    width: 90%;
 }
 
 .banner-txt{
@@ -150,3 +155,95 @@ h2{
 }
 
 }
+
+
+/*--- Information ---*/
+
+.info{
+  display: flex;
+  padding: 2rem 0; 
+  border: 1px solid #b8b8b8;
+    
+}
+
+.info-main{
+    width: 60%;
+}
+
+.info-img{
+    padding: 0 1.5rem 2rem 1.5rem;
+}
+
+.info-img img{
+    width: 100%;
+}
+
+.info-txt{
+    padding: 0 1.5rem;
+}
+
+.info-txt h3{
+    padding-bottom:1.5rem;
+}
+
+.info-txt .author{
+    padding-top: 2rem;
+    font-weight: bold;
+}
+
+.news{
+    width: 40%;
+}
+
+.news-content{
+    display: flex;
+    align-items: center;
+}
+
+.news-content img{
+    height: auto;
+    width: 35%;
+    padding: 1rem 1rem;
+}
+
+.orientation img{
+    padding: 0 1rem 1rem 1rem;
+
+}
+
+.orientation{
+    border-left: 1px solid #b8b8b8;
+    border-right: 1px solid #b8b8b8;
+    border-bottom: 1px solid #b8b8b8;
+}
+
+.campus{
+    border: 1px solid #b8b8b8;
+}
+
+.news .lecture{
+    background-color: #b8b8b8;
+}
+
+.news-txt h3{
+    padding-bottom: 0.5rem;
+}
+
+.news-txt a{
+    padding-top: 0.5rem;
+    color: #0080ff;
+}
+
+/*--- Information mobile ---*/
+
+@media only screen and (min-width:320px) and (max-screen:480px){
+    .news .news-content{
+        flex-direction: column;
+
+        
+    }
+}
+
+
+
+
