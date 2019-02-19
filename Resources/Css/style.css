@@ -29,7 +29,7 @@ h2{
 }
 
 h3{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /*---Header---*/
@@ -77,171 +77,81 @@ h3{
 }
 
 
-/*---Banner ---*/
+/*--- Banner ---*/
 
 .banner{
- display: flex;
- background-color: #d8d8d8;
+    display: flex;
+    border: 1px solid black;
+    padding: 2rem 1.5rem;
+    background-color: #d8d8d8;
 }
 
 .banner-img{
+    border: 1px solid red;
     width: 60%;
-    margin: 2rem 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .banner-img img{
     width: 100%;
+    height: auto;
+
 }
 
 .banner-txt{
+    border: 1px solid red;
     width: 40%;
     display: flex;
     flex-direction: column;
     justify-content: center;
-}
-
-.banner-txt h1{
-    padding-bottom: 1rem;
 }
 
 .banner-txt h2{
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .banner-txt .btn{
-    color: #d8d8d8;
-    background-color: #484848;
-    text-align: center;
-    width: 70%;
+    margin: 1rem 1rem 1rem 0;
     padding: 0.5rem 0;
-    margin-top: 2rem;
+    background-color: #484848;
+    color: #d8d8d8;
+    width: 85%;
+    text-align: center;
 }
 
-/* Banner mobile */
+/*--- Banner mobile----*/
 
-@media only screen and (min-width:320px) and (max-width:480px){
+@media only screen and (min-width::320px) and (max-width:480px){
 
-.banner{
-    flex-direction: column;
-}
-
-
-.banner-img img{
-    padding: 0;
-    width: 100%;
-}
-
-.banner-txt .btn{
-    background-color: #b8b8b8;
-    color: #ffffff;
-    padding: 1.5rem 1rem 2rem 0;
-    width: 90%;
-}
-
-.banner-txt{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    padding-left:1rem;
-}
-
-.banner h2{
-    padding-bottom: 2rem;
-}
-
-.banner h1{
-    padding-top: 2rem;
-}
-
-}
-
-
-/*--- Information ---*/
-
-.info{
-  display: flex;
-  padding: 2rem 0; 
-  border: 1px solid #b8b8b8;
-    
-}
-
-.info-main{
-    width: 60%;
-}
-
-.info-img{
-    padding: 0 1.5rem 2rem 1.5rem;
-}
-
-.info-img img{
-    width: 100%;
-}
-
-.info-txt{
-    padding: 0 1.5rem;
-}
-
-.info-txt h3{
-    padding-bottom:1.5rem;
-}
-
-.info-txt .author{
-    padding-top: 2rem;
-    font-weight: bold;
-}
-
-.news{
-    width: 40%;
-}
-
-.news-content{
-    display: flex;
-    align-items: center;
-}
-
-.news-content img{
-    height: auto;
-    width: 35%;
-    padding: 1rem 1rem;
-}
-
-.orientation img{
-    padding: 0 1rem 1rem 1rem;
-
-}
-
-.orientation{
-    border-left: 1px solid #b8b8b8;
-    border-right: 1px solid #b8b8b8;
-    border-bottom: 1px solid #b8b8b8;
-}
-
-.campus{
-    border: 1px solid #b8b8b8;
-}
-
-.news .lecture{
-    background-color: #b8b8b8;
-}
-
-.news-txt h3{
-    padding-bottom: 0.5rem;
-}
-
-.news-txt a{
-    padding-top: 0.5rem;
-    color: #0080ff;
-}
-
-/*--- Information mobile ---*/
-
-@media only screen and (min-width:320px) and (max-screen:480px){
-    .news .news-content{
+    .banner {
         flex-direction: column;
-
-        
-    }
+      }
+    
+      .banner-img {
+          padding: 0;
+      }
+    
+      .txt {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+    
+      .banner-txt h2 {
+        padding: 0 1rem;
+      }
+    
+      .banner img, .banner-img, .logo {
+        width: 100%;
+      }
+    
+      .btn {
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        width: 90%;
+      }
+    
 }
 
 
