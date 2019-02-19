@@ -215,7 +215,27 @@ h3{
         padding-top: 2rem;
         padding-bottom: 1.5rem;
     }
-    
-    }
-    
+
+    /*---Information mobile ---*/
+.news{
+    width: 100%;
+    margin-top: 0px;
+}
+
+.news-content{
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+
+.news-content img{
+    width: 100%;
+    padding: 0;
+}
+
+.news-txt{
+    width: 100%;
+    padding: 2rem 1rem;
+    margin-left: 1rem;
+}
+
     
