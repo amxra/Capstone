@@ -339,10 +339,11 @@ h3{
 
     .banner-img{
         width: 100%;
+        margin-right: 0;
     }
 
     .banner-txt{
-        width: auto%;
+        width: auto;
         padding: 2rem 1rem;
     }
 
@@ -376,8 +377,7 @@ h3{
 
  .news-txt{
     width: 100%;
-    padding: 2rem 1rem;
-    margin-left: 1rem;
+    padding: 2rem 0 1rem 1rem;
  }
 
  /*---Learning mobile---*/
