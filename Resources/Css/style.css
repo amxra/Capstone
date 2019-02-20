@@ -4,11 +4,20 @@ html{
 
 body{
     line-height: 1.5rem;
-    color: #484848;
+    font-family: 'Questrial', sans-serif;
+    color: #787878;
+
 }
 
 a{
     text-decoration: none;
+}
+
+a:hover{
+    
+    background-color: #787878;
+    padding: 0.5rem 0.5rem;
+    border-radius: 1rem;
 }
 
 .mobile{
@@ -17,15 +26,18 @@ a{
 
 h1, h2, h3, h4{
     font-weight: bold;
+    color: #484848;
 }
 
 h1{
     font-size: 2.75rem;
+    font-family: 'Open Sans', sans-serif;
    
 }
 
 h2{
     font-size: 2rem;
+    font-family: 'Open Sans', sans-serif;
 }
 
 h3{
@@ -45,6 +57,8 @@ h3{
 .header .logo{
     display: flex;
     height: 2rem;
+    font-family: 'Crimson Text', serif;
+  
 }
 
 .header a{
@@ -52,8 +66,12 @@ h3{
     padding-left: 1rem;
 }
 
-.logo .academy{
+.header a:hover{
     color: #d8d8d8;
+}
+
+.logo .academy{
+    color: #a8a8a8;
 }
 
 
@@ -95,6 +113,11 @@ h3{
     color: #d8d8d8;
     width: 85%;
     text-align: center;
+}
+
+.banner-txt .btn:hover{
+    background-color: #a8a8a8;
+    color: #484848;
 }
 
 
@@ -142,13 +165,20 @@ h3{
     color: #3399FF;
 }
 
+.news-txt a:hover{
+    background-color: #a8a8a8;
+    color: #fff;
+}
+
 .news .orientation{
     border-left: 1px solid #d8d8d8;
     border-right: 1px solid #d8d8d8;
+    padding: 1rem 1rem;
 }
 
 .news .campus{
     border: 1px solid #d8d8d8;
+    padding: 1rem 1rem;
 }
 
 .news-content{
@@ -166,6 +196,12 @@ h3{
 
 .news .lecture{
     background-color: #d8d8d8;
+    padding: 1rem 1rem;
+}
+
+ .lecture a:hover{
+    background-color: #fff;
+    color: #a8a8a8;
 }
 
 
@@ -200,11 +236,12 @@ h3{
 }
 
 .course-txt{
-    padding: 1rem 0 1.5rem 1rem;
+    padding: 1rem 1rem 1.5rem 1rem;
 }
 
 .course-txt p{
     padding-top: 0.5rem;
+    color: #a8a8a8;
 }
   
 /*---Thesis---*/
@@ -244,12 +281,19 @@ h3{
 
 .footer .terms{
     padding-right: 1rem;
-}
-
-}
-
-.tp a {
     color: #484848;
+}
+
+.footer .privacy{
+  color: #484848;
+}
+
+.tp a{
+    color: #484848;
+}
+
+.tp a:hover{
+    color: #d8d8d8;
 }
 
 
