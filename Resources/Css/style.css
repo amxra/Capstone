@@ -315,10 +315,6 @@ h3{
     .hide-mobile {
         display: none;
     }
-
-    body{
-        width: 100%;
-    }
     
     .mobile{
         display: inline;
@@ -343,12 +339,11 @@ h3{
 
     .banner-img{
         width: 100%;
-        margin-right: 0;
     }
 
     .banner-txt{
-        width: 100%;
-        padding: 2rem 0 2rem 1rem;
+        width: auto%;
+        padding: 2rem 1rem;
     }
 
     .btn{
