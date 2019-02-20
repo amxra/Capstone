@@ -74,9 +74,6 @@ h3{
     color: #a8a8a8;
 }
 
-.logo a:hover{
-    text-decoration: none;
-}
 
 
 
@@ -170,8 +167,8 @@ h3{
 }
 
 .news-txt a:hover{
-    background-color: #a8a8a8;
-    color: #fff;
+    text-decoration: underline;
+    color: #33ccff;
 }
 
 .news .orientation{
@@ -204,8 +201,8 @@ h3{
 }
 
  .lecture a:hover{
-    background-color: #fff;
-    color: #a8a8a8;
+    text-decoration: underline;
+    color: #33ccff;
 }
 
 
@@ -261,6 +258,10 @@ h3{
 
 .thesis .news{
     width: 100%;
+}
+
+.news .fisma, .news .nat{
+    padding: 1rem 1rem;
 }
 
 .news .fisma{
