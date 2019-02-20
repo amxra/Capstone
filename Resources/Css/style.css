@@ -17,6 +17,7 @@ a:hover{
     
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
+    transition: background-color 100ms linear 50ms, color 100ms linear 50ms, border-radius 150ms linear 50ms;
 }
 
 .mobile{
@@ -64,6 +65,7 @@ h3{
     color: #484848;
     padding-left: 1rem;
 }
+
 
 .header a:hover{
     color: #d8d8d8;
