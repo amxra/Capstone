@@ -233,7 +233,24 @@ h3{
 
   
 
+/*--- Footer ---*/
 
+.footer{
+    border-top: 1px solid #d8d8d8;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1.5rem 2rem 1.5rem;
+}
+
+.footer .terms{
+    padding-right: 1rem;
+}
+
+}
+
+.tp a {
+    color: #484848;
+}
 
 
 
@@ -352,6 +369,14 @@ h3{
 
  .thesis .info-main{
      margin-right: 0;
+ }
+
+ /*---Footer mobile---*/
+
+ .footer{
+     border-top: none;
+     padding: 1.5rem 0 1rem 0;
+     justify-content: center;
  }
 
 }
