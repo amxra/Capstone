@@ -289,20 +289,15 @@ h3{
 
 .footer .terms{
     padding-right: 1rem;
-    color: #484848;
-}
-
-.footer .privacy{
-  color: #484848;
 }
 
 .tp a{
-    color: #484848;
+    
+    color: #d8d8d8;
 }
 
 .tp a:hover{
-    color: #d8d8d8;
-    background-color: #fff;
+    color: #484848;
 }
 
 
