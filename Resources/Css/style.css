@@ -15,7 +15,6 @@ a{
 
 a:hover{
     
-    background-color: #787878;
     padding: 0.5rem 0.5rem;
     border-radius: 1rem;
 }
@@ -68,6 +67,7 @@ h3{
 
 .header a:hover{
     color: #d8d8d8;
+    background-color: #fff;
 }
 
 .logo .academy{
@@ -294,6 +294,7 @@ h3{
 
 .tp a:hover{
     color: #d8d8d8;
+    background-color: #fff;
 }
 
 
