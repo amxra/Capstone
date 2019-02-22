@@ -351,15 +351,22 @@ h3{
         background-color: #c0c0c0;
     }
 
+    .banner-txt .btn{
+        width: 100%;
+    }
+
     .banner-txt h3{
         padding-top: 2rem;
         padding-bottom: 1.5rem;
     }
 
     /*---Information mobile ---*/
+    
+    
     .news{
     width: 100%;
     margin-top: 0px;
+    background-color: #ffffcc;
     }
 
 
@@ -380,7 +387,7 @@ h3{
 
  /*---Learning mobile---*/
  .learn{
-     background-color: #fff;
+     background-color: #ffff99;
      border: 1px solid #d8d8d8;
  }
 
