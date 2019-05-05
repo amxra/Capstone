@@ -17,6 +17,8 @@ Final project for my Codecademy 'Build website from scratch' course.
 
 <h3>Other Grade in course </h3>
 
+<img src="Resources/Media/Images/Screenshot 2019-05-05 at 01.01.55.png"  height="42" width="42">
+
 
 
 
