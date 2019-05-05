@@ -318,6 +318,9 @@ h3{
         display: inline;
     }
 
+    a:hover{
+        transition: background-color 0 none 0, color 0 none 0, border-radius 0 none 0;
+    }
     
     /*---Header mobile ---*/
     
@@ -325,6 +328,11 @@ h3{
         display: inline-flex;
         justify-content: space-around;
         width: 100%;
+    }
+
+    .header a:hover{
+        color: none;
+        background-color: none;
     }
 
 
@@ -359,6 +367,15 @@ h3{
         padding-top: 2rem;
         padding-bottom: 1.5rem;
     }
+
+    .banner-txt .btn:hover{ 
+        padding: 0
+        border-radius: 0;
+        background-color: none;
+        color:none;
+    }
+
+  
 
     /*---Information mobile ---*/
     
@@ -438,6 +455,10 @@ h3{
      border-top: none;
      padding: 1.5rem 0 1rem 0;
      justify-content: center;
+ }
+
+ .copyright p{
+     text-align: center;
  }
 
 }
