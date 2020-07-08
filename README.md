@@ -1,7 +1,7 @@
  <h1>Capstone - Colmar academy</h1>
  
  
-Final project for my Codecademy 'Build website from scratch' course.Full responsive website can be viewed at https://github.com/amxra/Capstone
+Final project for my Codecademy 'Build website from scratch' course.Full responsive website can be viewed at https://amxra.github.io/Capstone/
 
 
 <h3>Wireframe</h3>
